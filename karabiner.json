@@ -18,159 +18,25 @@
         },
         "rules": [
           {
-            "manipulators": [
-              {
-                "description": "Open Wireshark with Right Option + W",
-                "from": {
-                  "key_code": "w",
-                  "modifiers": {
-                    "mandatory": [
-                      "right_option"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "shell_command": "open -a Wireshark.app"
-                  }
-                ],
+            "manipulators": [{
+                "from": { "key_code": "i", "modifiers": {"mandatory": ["left_option"]} },
+                "to": [{ "shell_command": "open -a Clock.app"}],
                 "type": "basic"
-              },
-              {
-                "description": "Open IntelliJ IDEA with Right Option + I",
-                "from": {
-                  "key_code": "i",
-                  "modifiers": {
-                    "mandatory": [
-                      "right_option"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "shell_command": "open -a 'IntelliJ IDEA.app'"
-                  }
-                ],
+              }, {
+                "from": { "key_code": "period", "modifiers": {"mandatory": ["left_option"]} },
+                "to": [{ "shell_command": "open -a VSCodium.app"}],
                 "type": "basic"
-              },
-              {
-                "description": "Open WebStorm with Right Option + W",
-                "from": {
-                  "key_code": "w",
-                  "modifiers": {
-                    "mandatory": [
-                      "left_option"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "shell_command": "open -a WebStorm.app"
-                  }
-                ],
+              }, {
+                "from": { "key_code": "k", "modifiers": {"mandatory": ["left_option"]} },
+                "to": [{ "shell_command": "open -a Alacritty.app"}],
                 "type": "basic"
-              },
-              {
-                "description": "Open Alacritty terminal when Option + T pressed",
-                "from": {
-                  "key_code": "t",
-                  "modifiers": {
-                    "mandatory": [
-                      "right_option"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "shell_command": "open -a Alacritty.app"
-                  }
-                ],
+              }, {
+                "from": { "key_code": "y", "modifiers": {"mandatory": ["left_option"]} },
+                "to": [{ "shell_command": "open -a Firefox.app"}],
                 "type": "basic"
-              },
-
-              {
-                "description": "Open Discord when Right Option + D pressed",
-                "from": {
-                  "key_code": "d",
-                  "modifiers": {
-                    "mandatory": [
-                      "right_option"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "shell_command": "open -a Discord.app"
-                  }
-                ],
-                "type": "basic"
-              },
-              {
-                "description": "Open Clock when Option + C pressed",
-                "from": {
-                  "key_code": "c",
-                  "modifiers": {
-                    "mandatory": [
-                      "right_option"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "shell_command": "open -a Clock.app"
-                  }
-                ],
-                "type": "basic"
-              },
-              {
-                "description": "Open Safari when Option + S pressed",
-                "from": {
-                  "key_code": "s",
-                  "modifiers": {
-                    "mandatory": [
-                      "right_option"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "shell_command": "open -a Safari.app"
-                  }
-                ],
-                "type": "basic"
-              },
-              {
-                "description": "Open Mail when Option + m pressed",
-                "from": {
-                  "key_code": "m",
-                  "modifiers": {
-                    "mandatory": [
-                      "right_option"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "shell_command": "open -a Mail.app"
-                  }
-                ],
-                "type": "basic"
-              },
-              {
-                "description": "Open Numbers when Option + n pressed",
-                "from": {
-                  "key_code": "n",
-                  "modifiers": {
-                    "mandatory": [
-                      "right_option"
-                    ]
-                  }
-                },
-                "to": [
-                  {
-                    "shell_command": "open -a Numbers.app"
-                  }
-                ],
+              }, {
+                "from": { "key_code": "l", "modifiers": {"mandatory": ["left_option"]} },
+                "to": [{ "shell_command": "open -a Notes.app"}],
                 "type": "basic"
               }
             ]
