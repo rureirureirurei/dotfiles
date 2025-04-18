@@ -1,0 +1,1 @@
+- also add use-keyboxd to the .gnupg/common.conf and pinentry-program /usr/bin/pinentry-qt to the .gnupg/gpg-agent.conf 
