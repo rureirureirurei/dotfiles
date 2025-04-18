@@ -1,0 +1,19 @@
+.ytd-comments {
+  display: none !important;
+}
+
+#secondary {
+  display: none !important;
+}
+
+#right-sidebar-container {
+  display: none !important;
+}
+
+#toolbarContainer {
+  display: none !important;
+}
+
+#viewerContainer {
+  top: 16px !important;
+}
